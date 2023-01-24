@@ -1,5 +1,5 @@
 # Use a container with Go pre-installed
-FROM quay.io/projectquay/golang:1.17
+FROM quay.io/luismg26/golang:1.15
 
 # Copy our source file into the container
 COPY src/hello-world.go /go/hello-world.go
