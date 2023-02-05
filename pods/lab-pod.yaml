@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: lab-pod
+  name: hello-world-pod
   labels:
-    app: lab-pod-app
+    app: hello-world-pod
 spec:
   containers:
   - env:
     - name: MESSAGE
-      value: Mensaje Actualizado v2.0
+      value: Mi Mensaje es By Luis
     image: quay.io/practicalopenshift/hello-world
     imagePullPolicy: Always
     name: hello-world-override
